@@ -1,4 +1,4 @@
-# Amartha Test Interview
+# Loan Agreement Service
 
 Golang service for managing loans, generating agreement letters (PDF), and notifying investors when a loan is fully funded.
 
@@ -31,12 +31,16 @@ Golang service for managing loans, generating agreement letters (PDF), and notif
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/adityaokke/test-amartha.git
-   cd test-amartha
+   git clone https://github.com/adityaokke/loan-agreement-service.git
+   cd loan-agreement-service
    ```
-2. Modify SMTP_PASS on .env file by using pass i give on email
+2. Create your `.env` from the example and fill in your SMTP credentials:
+   ```bash
+   cp .env.example .env
+   ```
    ```env
-   SMPT_PASS=brevo-smptp-password-i-mention-on-email
+   SMTP_USER=your-smtp-user
+   SMTP_PASS=your-smtp-password
    ```
 
 ## Project Structure
@@ -174,4 +178,4 @@ This project is licensed under the MIT License - see the [LICENSE](https://opens
 
 Aditya Okke Sugiarso - adityaokke@gmail.com
 
-Project Link: [https://github.com/adityaokke/test-amartha](https://github.com/adityaokke/test-amartha)
+Project Link: [https://github.com/adityaokke/loan-agreement-service](https://github.com/adityaokke/loan-agreement-service)

@@ -24,3 +24,6 @@
 
 # Storage folder
 storage/*
+
+# Local environment (copy from .env.example)
+.env
