@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/adityaokke/test-amartha/internal/entity"
+	"github.com/adityaokke/loan-agreement-service/internal/entity"
 	"github.com/google/uuid"
 	"github.com/jung-kurt/gofpdf"
 )

@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/adityaokke/test-amartha/internal/entity"
-	"github.com/adityaokke/test-amartha/internal/repository/db"
+	"github.com/adityaokke/loan-agreement-service/internal/entity"
+	"github.com/adityaokke/loan-agreement-service/internal/repository/db"
 )
 
 type InvestorService interface {

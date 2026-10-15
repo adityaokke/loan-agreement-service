@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/adityaokke/test-amartha/internal/entity"
-	"github.com/adityaokke/test-amartha/internal/repository/db"
-	"github.com/adityaokke/test-amartha/internal/repository/mail"
-	"github.com/adityaokke/test-amartha/internal/repository/pdf"
+	"github.com/adityaokke/loan-agreement-service/internal/entity"
+	"github.com/adityaokke/loan-agreement-service/internal/repository/db"
+	"github.com/adityaokke/loan-agreement-service/internal/repository/mail"
+	"github.com/adityaokke/loan-agreement-service/internal/repository/pdf"
 	"github.com/shopspring/decimal"
 	"gorm.io/gorm"
 )

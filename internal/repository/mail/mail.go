@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"text/template"
 
-	"github.com/adityaokke/test-amartha/internal/entity"
-	pkgMail "github.com/adityaokke/test-amartha/internal/pkg/mail"
+	"github.com/adityaokke/loan-agreement-service/internal/entity"
+	pkgMail "github.com/adityaokke/loan-agreement-service/internal/pkg/mail"
 	"golang.org/x/text/language"
 	"golang.org/x/text/message"
 )

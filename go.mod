@@ -1,4 +1,4 @@
-module github.com/adityaokke/test-amartha
+module github.com/adityaokke/loan-agreement-service
 
 go 1.24.0
 

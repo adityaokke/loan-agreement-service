@@ -49,7 +49,7 @@ Golang service for managing loans, generating agreement letters (PDF), and notif
 .
 ├── .vscode/                           # VS Code configuration
 ├── cmd/                               # Main applications
-│   └── test-amartha/                  # Server entry point
+│   └── loan-agreement-service/        # Server entry point
 ├── internal/                          # Private application code
 │   ├── delivery/                      # Delivery/Handler layer (HTTP handlers)
 │   ├── entity/                        # Domain entities/models
@@ -82,12 +82,12 @@ The debugger will:
 
 Run the application directly:
 ```bash
-go run cmd/test-amartha/main.go
+go run cmd/loan-agreement-service/main.go
 ```
 
 Or build and run:
 ```bash
-go build -o bin/server cmd/test-amartha/main.go
+go build -o bin/server cmd/loan-agreement-service/main.go
 ./bin/server
 ```
 
@@ -113,7 +113,7 @@ Example `.vscode/launch.json`:
             "type": "go",
             "request": "launch",
             "mode": "debug",
-            "program": "${workspaceFolder}/cmd/test-amartha",
+            "program": "${workspaceFolder}/cmd/loan-agreement-service",
             "cwd": "${workspaceFolder}", 
             "output": "${workspaceFolder}/debug",
         }

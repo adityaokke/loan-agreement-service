@@ -1,7 +1,7 @@
 package migration
 
 import (
-	"github.com/adityaokke/test-amartha/internal/entity"
+	"github.com/adityaokke/loan-agreement-service/internal/entity"
 	"gorm.io/gorm"
 )
 

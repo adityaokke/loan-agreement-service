@@ -3,7 +3,7 @@ package db
 import (
 	"context"
 
-	"github.com/adityaokke/test-amartha/internal/entity"
+	"github.com/adityaokke/loan-agreement-service/internal/entity"
 )
 
 type LoanInvestmentRepository interface {

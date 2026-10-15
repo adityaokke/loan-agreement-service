@@ -3,7 +3,7 @@ package rest
 import (
 	"fmt"
 
-	"github.com/adityaokke/test-amartha/internal/entity"
+	"github.com/adityaokke/loan-agreement-service/internal/entity"
 	echo "github.com/labstack/echo/v4"
 )
 
